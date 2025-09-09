@@ -1,5 +1,6 @@
 <?php
 
+
 namespace Database\Seeders;
 
 use App\Models\Category;
@@ -20,7 +21,7 @@ class DatabaseSeeder extends Seeder
             'username' => 'testuser',
             'email' => 'test@example.com'
         ]);
-        
+
         $categories = [
             'Technology',
             'Health',
